@@ -5,6 +5,7 @@ import Test from './Components/Test'
 import StopWatch from './Components/useEffectHook/StopWatch'
 import  UseRef from './Components/useRefExamples/UseRef';
 import ProgressBar from './Components/ProgressBar';
+import AppConponent from './Components/createContextApi/AppComponent';
 
 
 
@@ -14,13 +15,14 @@ function App() {
 
   return (
     <>
-<Table/>
+{/* <Table/> */}
 {/* <Effect/> */}
 {/* <Test/> */}
 {/* <StopWatch/> */}
 {/* <UseRef/> */}
 {/* <PreviousValues/> */}
 {/* <ProgressBar/> */}
+<AppConponent/>
 
 
     </>

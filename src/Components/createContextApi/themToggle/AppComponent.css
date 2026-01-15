@@ -1,0 +1,16 @@
+.header{
+   
+    background-color:#bbd3d1;
+    display:flex;   
+    justify-content: space-between; 
+    align-items: center;
+
+    
+}
+.theme-btn{
+    height:40px;
+    background:green;
+    border: none;
+    border-radius: 10px;
+  color:white;
+}

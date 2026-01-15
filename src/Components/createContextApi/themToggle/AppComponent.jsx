@@ -1,7 +1,8 @@
-import ThemeContext from "../../context/ThemeContext.js";
+import ThemeContext from "../../../context/ThemeContext.js";
 import { useState } from "react";
 import Navbar from "./Navbar.jsx" 
 import Page from "./Page.jsx";
+import "./AppComponent.css"
 
 
 function AppComponent() {

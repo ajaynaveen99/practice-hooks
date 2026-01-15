@@ -1,3 +1,6 @@
+
+//using API showing the data in table format
+//used useEffect hook  for example
 import { useEffect, useState } from "react";
 
 function Table() {

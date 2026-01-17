@@ -17,10 +17,12 @@ if(!user){
   )
 }
 return(<>
-<div  className="flex  border items-center justify-center h-screen bg-gray-100"><h1>well come to Dashboard:{user.name}</h1>
-<input className=""type="checkbox" checked={user.isLoggedIn} />
-<button onClick={()=>setUser(null)}>Logout</button>
-</div>
+<div  className="h-screen flex items-center  justify-center bg-gray-100 ">
+  <div><h2 className=" text-5xl">well come to Dashboard:{user.name}</h2>
+  <label  className='block text-4xl ml-60 mt-3'>Login Status </label>
+<input className=" size-10 block text-4xl ml-80 mt-3"type="checkbox" checked={user.isLoggedIn} />
+<button onClick={()=>setUser(null)} className='block text-2xl ml-75 mt-3 bg-blue-500 rounded-sm p-1 text-white'>Logout</button>
+</div></div>
 </>)
 
 

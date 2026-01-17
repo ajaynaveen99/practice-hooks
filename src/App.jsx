@@ -7,6 +7,7 @@ import  UseRef from './Components/useRefExamples/UseRef';
 import ProgressBar from './Components/ProgressBar';
 import AppConponent from './Components/createContextApi/themToggle/AppComponent';
 import LoginContext from './Components/createContextApi/loginExample/LoginContext';
+import AppReduce from './Components/createContextApi/useReduce/CounterExample/AppReduce';
 
 
 
@@ -24,7 +25,8 @@ function App() {
 {/* <PreviousValues/> */}
 {/* <ProgressBar/> */}
 {/* <AppConponent/> */}
-<LoginContext/>
+{/* <LoginContext/> */}
+<AppReduce/>
 
 
     </>

@@ -1,5 +1,7 @@
 import Counter from "./Counter";
+import CounterAdd from "./CounterAdd";
 
 export default function AppReduce() {
-  return <Counter />;
+  return<> <CounterAdd/></>;
+
 }

@@ -8,6 +8,7 @@ import ProgressBar from './Components/ProgressBar';
 import AppConponent from './Components/createContextApi/themToggle/AppComponent';
 import LoginContext from './Components/createContextApi/loginExample/LoginContext';
 import AppReduce from './Components/createContextApi/useReduce/CounterExample/AppReduce';
+import AppReduceExamples from './Components/createContextApi/useReduce/useReduceExamples/AppReduceExamples';
 
 
 
@@ -26,7 +27,8 @@ function App() {
 {/* <ProgressBar/> */}
 {/* <AppConponent/> */}
 {/* <LoginContext/> */}
-<AppReduce/>
+{/* <AppReduce/> */}
+<AppReduceExamples/>
 
 
     </>

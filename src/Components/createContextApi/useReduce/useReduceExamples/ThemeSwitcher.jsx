@@ -24,10 +24,12 @@ export default function ThemeSwitcher() {
   };
 
   return (
-    <div style={styles}>
-      <h2>{state.theme.toUpperCase()} MODE</h2>
+    <div style={styles} className="mt-2 flex justify-center items-center gap-4   h-screen">
 
-      <button onClick={() => dispatch({ type: "TOGGLE_THEME" })}>
+      <h2>{state.theme.toUpperCase()} MODE</h2>
+   
+
+      <button  className="border-2 p-1 bg-green-300 " onClick={() => dispatch({ type: "TOGGLE_THEME" })}>
         Toggle Theme
       </button>
     </div>

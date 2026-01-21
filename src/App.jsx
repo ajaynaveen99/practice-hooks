@@ -9,6 +9,7 @@ import AppConponent from './Components/createContextApi/themToggle/AppComponent'
 import LoginContext from './Components/createContextApi/loginExample/LoginContext';
 import AppReduce from './Components/createContextApi/useReduce/CounterExample/AppReduce';
 import AppReduceExamples from './Components/createContextApi/useReduce/useReduceExamples/AppReduceExamples';
+import AppHoc from './Components/HOC/authExample/AppHoc';
 
 
 
@@ -28,7 +29,9 @@ function App() {
 {/* <AppConponent/> */}
 {/* <LoginContext/> */}
 {/* <AppReduce/> */}
-<AppReduceExamples/>
+{/* <AppReduceExamples/> */}
+<AppHoc/>
+
 
 
     </>

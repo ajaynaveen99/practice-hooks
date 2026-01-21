@@ -16,7 +16,8 @@ function withAuth(Component) {
       return (
         <>
           <h2>❌ Please Login</h2>
-          <button  className="border-2" onClick={login}>Login</button>
+          <button  className="border-2 p-2 rounded-2xl bg-green-400
+      "onClick={login}>Login</button>
         </>
       );
     }

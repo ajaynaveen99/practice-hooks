@@ -6,11 +6,14 @@ import "./AppComponent.css";
 
 function AppComponent() {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") || "Light"
+   localStorage.getItem("theme") || "Light"
+
   );
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
+
+
   }, [theme]);
 
   return (

@@ -22,11 +22,11 @@ function App() {
 {/* <Table/> */}
 {/* <Effect/> */}
 {/* <Test/> */}
-{/* <StopWatch/> */}
+<StopWatch/>
 {/* <UseRef/> */}
 {/* <PreviousValues/> */}
 {/* <ProgressBar/> */}
-<AppConponent/>
+{/* <AppConponent/> */}
 {/* <LoginContext/> */}
 {/* <AppReduce/> */}
 {/* <AppReduceExamples/> */}
